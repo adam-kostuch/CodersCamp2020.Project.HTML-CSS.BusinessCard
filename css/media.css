@@ -1,9 +1,5 @@
 @media (min-width: 1201px) 
     and (max-width: 1440px) {
-        .main_view {
-            padding-bottom: 1vw;
-        }
-
         .main_text > h2 {
             font-size: 4vw;
         }
@@ -12,28 +8,16 @@
             font-size: 1.2vw;
         }
 
-        #portfolio {
-            padding-top: 5vw;
-        }
-
-        .portfolio_logo {
-            width: 100%;
-        }
-
         .portfolio_container > h1 {
             padding-bottom: 1vw;
         }
 
         .single_project {
-            height: 45vh;
+            height: 25vw;
         }
 
         #gallery > h1 {
-            margin-top: 8vw;
-        }
-        
-        #contact {
-            margin-top: -6vw;
+            margin-top: 6vw;
         }
 
         .form_container > h1 {
@@ -41,16 +25,7 @@
         }
 
         .form_container > div {
-            height: 45vh;
-            margin-bottom: 10vw;
-        }
-
-        iframe {
-            height: 37.5vh;
-        }
-
-        footer {
-            margin-top: 3vw;
+            height: 25vw;
         }
 }
 
@@ -64,14 +39,6 @@
             font-size: 3vw;
         }
 
-        .main_view, #portfolio, #gallery, #achievements, #contact {
-            height: 70vh;
-        }
-
-        .main_view {
-            padding-top: 2vw;
-        }
-
         .main_text > h2 {
             font-size: 3vw;
         }
@@ -81,21 +48,18 @@
         }
 
         .main_left {
-            width: 35%;
-            height: 40%;
-            left: -25%;
-            top: 35%;
+            width: 30vw;
+            height: 60vw;
+            top: -10%;
+            left: -35%;
         }
 
         .main_content {
-            top: -30%;
-            height: 35%;
+            top: -130%;
         }
 
         .main_right {
-            width: 45%;
-            top: -50%;
-            left: 25%;
+            top: -160%;
         }
 
         .portfolio_logo {
@@ -109,24 +73,13 @@
         }
 
         .single_project {
-            height: 40vh;
+            width: 40vw;
+            height: 30vw;
             margin: 0 auto;
-        }
-
-        #gallery > h1 {
-            margin-top: 8vw;
-        }
-        
-        #achievements {
-            height: 70vh;
         }
 
         .single_achievement > h3 {
             font-size: 2vw;
-        }
-
-        #contact {
-            height: 50vh;
         }
 
         .contact_side {
@@ -134,15 +87,11 @@
         }
 
         .form_container > div {
-            height: 40vh;
-        }
-
-        iframe {
-            height: 35vh;
+            height: 30vw;
         }
 
         footer {
-            margin-top: 17vw;
+            font-size: 2vw;
         }
 }
 
@@ -151,6 +100,7 @@
         h1 {
             font-size: 4vw;
         }
+
         nav > div > a {
             font-size: 2.8vw;
         }
@@ -159,74 +109,55 @@
             font-size: 3.5vw;
         }
 
-        .main_view, #portfolio, #gallery, #achievements, #contact {
-            height: 60vh;
-        }
-
         .main_view {
-            padding-top: 2vw;
+            padding-bottom: 10vw;
         }
 
         .main_text > h2 {
-            font-size: 3vw;
+            font-size: 5vw;
         }
 
         .main_text > p {
-            font-size: 1.3vw;
+            font-size: 1.4vw;
         }
 
         .main_left {
-            width: 35%;
-            height: 40%;
-            left: -25%;
-            top: 35%;
+            width: 35vw;
+            height: 50vw;
+            left: -30%;
+            top: 30%;
         }
 
         .main_content {
-            top: -30%;
-            height: 35%;
+            top: -100%;
+            left: -5%;
+            height: 25vw;
+            width: 50vw;
         }
 
         .main_right {
-            width: 45%;
-            top: -50%;
+            width: 45vw;
+            height: 50vw;
+            top: -180%;
             left: 25%;
         }
 
-        #portfolio {
-            height: 110vh;
-        }
-
-        .portfolio_logo {
-            width: 100%;
-            padding-bottom: 2vw;
-            flex-wrap: wrap;
-        }
-
         .portfolio_container > h1 {
-            padding-top: 4vw;
-            padding-bottom: 1vw;
+            padding: 4vw auto 1vw auto;
         }
 
         .single_project {
-            height: 40vh;
-            width: 55%;
+            height: 40vw;
+            width: 60vw;
             margin: 1vw auto;
         }
 
         .hover_animation > a > img {
             width: 5vw;
         }
-
-        #gallery {
-            height: 180vh;
-        }
-
-        #gallery > h1 {
-            margin-top: 8vw;
-        }
         
         .gallery_container {
+            margin-top: 0;
             width: 80%;
             grid-template-columns: 1fr;
             grid-template-areas: 
@@ -237,13 +168,9 @@
             'fifth';
         }
 
-        #achievements {
-            height: 70vh;
-        }
-
         .achievements_photo > img {
             width: 25vw;
-            left: 20%;
+            left: 25%;
         }
 
         .achievements_container {
@@ -255,15 +182,7 @@
             width: 40vw;
         }
         
-        .single_achievement > h3 { 
-            font-size: 2vw;
-        }
-
-        #contact {
-            height: 100vh;
-        }
-
-        .contact_side {
+        .single_achievement > h3, .contact_side { 
             font-size: 2vw;
         }
 
@@ -273,37 +192,61 @@
         }
 
         .form_container > div {
-            height: 40vh;
-            width: 30vh;
+            height: 35vw;
+            width: 40vw;
         }
 
         .form_container > div > h4 {
-            font-size: 2.2vw;
+            font-size: 2.5vw;
         }
 
         .one_info > p {
-            font-size: 1.8vw;
+            font-size: 2vw;
+        }
+
+        .one_info > img {
+            width: 10%;
         }
 
         iframe {
-            height: 30vh;
-            width: 30vw;
+            height: 80%;
+            width: 90%;
+        }
+
+        input, textarea {
+            width: 95%;
+            height: 5vw;
+            font-size: 1.7vw;
         }
 
         input[type=submit] {
-            height: 3vw;
+            height: 5vw;
+        }
+
+        .iframe_side, .contact_side {
+            margin-top: 0;
+        }
+
+        .info_container {
+            margin-top: 10%;
         }
 
         footer {
-            margin-top: 17vw;
+            font-size: 2.2vw;
         }
+
 }
 
-@media (min-width: 460px) 
+@media (min-width: 501px) 
     and (max-width: 768px) {
         h1 {
             font-size: 5vw;
         }
+
+        header, nav > div {
+            height: 10vw;
+        }
+
         nav > div > a {
             font-size: 4vw;
         }
@@ -316,58 +259,41 @@
             height: 0;
         }
 
-        .main_view, #portfolio, #gallery, #achievements, #contact {
-            height: 60vh;
-        }
-
         .main_view {
-            padding-top: 2vw;
-        }
-
-        .main_text > h2 {
-            font-size: 3vw;
-        }
-
-        .main_text > p {
-            font-size: 1.3vw;
+            padding-bottom: 20vw;
         }
 
         .main_left {
-            width: 50%;
-            height: 40%;
-            left: -20%;
-            top: 0;
+            width: 30vw;
+            height: 20vw;
+            left: -30%;
+            top: 10%;
         }
 
         .main_content {
+            width: 60vw;
+            height: 30vw;
             top: -10%;
             left: 0;
-            width: 70%;
-            height: 30%;
         }
 
         .main_text > h2 {
-            font-size: 5vw;
+            font-size: 6vw;
         }
 
         .main_text > p {
-            font-size: 2.1vw;
+            font-size: 2vw;
         }
 
         .main_right {
-            width: 70%;
-            top: -30%;
-            left: 10%;
+            width: 50vw;
+            height: 40vw;
+            top: -80%;
+            left: 20%;
         }
 
-        #portfolio {
-            height: 90vh;
-        }
-
-        .portfolio_logo {
-            width: 100%;
-            padding-bottom: 2vw;
-            flex-wrap: wrap;
+        .single_project:nth-child(2) {
+            margin-bottom: 10vw;
         }
 
         .portfolio_container > h1 {
@@ -376,17 +302,13 @@
         }
 
         .single_project {
-            height: 35vh;
-            width: 80%;
+            height: 45vw;
+            width: 70%;
             margin: 1vw auto;
         }
 
         .hover_animation > a > img {
             width: 5vw;
-        }
-
-        #gallery {
-            height: 98vh;
         }
 
         #gallery > h1 {
@@ -404,17 +326,13 @@
             'fifth';
         }
 
-        #achievements {
-            height: 70vh;
-        }
-
         .achievements_all {
             flex-wrap: wrap;
         }
 
         .achievements_photo {
             width: 40vw;
-            left: 30%;
+            left: 20%;
         }
 
         .achievements_photo > img {
@@ -423,22 +341,18 @@
         }
 
         .achievements_container {
-            margin-top: 10vw;
+            margin: 10vw auto;
             width: 70%;
         }
 
         .single_achievement {
-            width: 100%;
-            margin-left: 25%;
+            width: 80%;
+            margin-left: 15%;
         }
 
         .single_achievement > h3 { 
             font-size: 3.5vw;
-            width: 85%;
-        }
-
-        #contact {
-            height: 100vh;
+            width: 80%;
         }
 
         .contact_side {
@@ -447,12 +361,11 @@
 
         .form_container {
             flex-wrap: wrap;
-            gap: 2vw;
         }
 
         .form_container > div {
-            height: 30vh;
-            width: 30vh;
+            height: 60vw;
+            width: 60%;
         }
 
         .form_container > div > h4 {
@@ -467,88 +380,87 @@
             font-size: 3vw;
         }
 
+        .flex_center {
+            padding-top: 5vw;
+        }
+
+        .iframe_side {
+            margin-bottom: 2vw;
+        }
+
         iframe {
-            height: 25vh;
-            width: 45vw;
+            height: 80%;
         }
 
         input, textarea {
+            height: 8vw;
             width: 95%;
             font-size: 2.5vw;
         }
 
         input[type=submit] {
-            height: 7vw;
+            height: 8vw;
         }
 
         .info_container {
-            margin-top: 15%;
+            margin-top: 0%;
         }
 
         footer {
-            margin-top: 17vw;
+            font-size: 4vw;
+            margin: 0 auto 4vw auto;
         }
 }
 
 @media (min-width: 300px) 
-    and (max-width: 461px) {
-        header {
-            height: 6vh;
+    and (max-width: 500px) {
+        header, nav > div {
+            height: 15vw;
         }
 
-        h1 {
+        h1, nav > div:nth-child(3) > a, .main_text > h2 {
             font-size: 5vw;
         }
+
         nav > div > a {
             font-size: 4vw;
-        }
-
-        nav > div:nth-child(3) > a {
-            font-size: 5vw;
         }
 
         .blank {
             height: 0;
         }
 
-        .main_view, #portfolio, #gallery, #achievements, #contact {
-            height: 60vh;
-        }
-
-        .main_view {
-            padding-top: 2vw;
-        }
-
-        .main_text > h2 {
-            font-size: 5vw;
-        }
-
         .main_text > p {
             font-size: 2vw;
         }
 
+        .main_view {
+            padding-bottom: 20vw;
+        }
+
         .main_left {
-            width: 50%;
-            height: 40%;
+            width: 40vw;
+            height: 30vw;
             left: -20%;
             top: 0;
         }
 
         .main_content {
-            top: -10%;
+            top: -30%;
             left: 0;
-            width: 70%;
-            height: 30%;
+            width: 70vw;
+            height: 30vw;
         }
 
         .main_right {
-            width: 70%;
-            top: -30%;
-            left: 10%;
+            width: 50vw;
+            height: 40vw;
+            top: -100%;
+            left: 30%;
         }
 
         #portfolio {
-            height: 90vh;
+            height: 150vw;
         }
 
         .portfolio_logo {
@@ -563,17 +475,13 @@
         }
 
         .single_project {
-            height: 35vh;
+            height: 60vw;
             width: 80%;
             margin: 1vw auto;
         }
 
         .hover_animation > a > img {
             width: 5vw;
-        }
-
-        #gallery {
-            height: 120vh;
         }
 
         #gallery > h1 {
@@ -591,31 +499,27 @@
             'fifth';
         }
 
-        #achievements {
-            height: 85vh;
-        }
-
         .achievements_all {
             flex-wrap: wrap;
         }
 
         .achievements_photo {
             width: 40vw;
-            left: 30%;
+            left: 15%;
         }
 
         .achievements_photo > img {
             width: 40vw;
-            left: 20%;
+            left: 15%;
         }
 
         .achievements_container {
-            margin-top: 10vw;
-            width: 70%;
+            margin: 5vw auto;
+            width: 80%;
         }
 
         .single_achievement {
-            width: 100%;
+            width: 60%;
             margin-left: 20%;
         }
 
@@ -625,7 +529,7 @@
         }
 
         #contact {
-            height: 117vh;
+            height: 220vw;
         }
 
         .contact_side {
@@ -638,12 +542,13 @@
         }
 
         .form_container > div {
-            height: 35vh;
-            width: 40vh;
+            height: 60vw;
+            width: 80%;
+            margin-bottom: 2vw;
         }
 
         .form_container > div > h4 {
-            font-size: 4vw;
+            font-size: 5vw;
         }
 
         .one_info > img {
@@ -655,25 +560,24 @@
         }
 
         iframe {
-            height: 30vh;
-            width: 50vw;
+            height: 85%;
+        }
+
+        form > input:nth-child(1) {
+            margin-top: 7vw;
         }
 
         input, textarea {
             width: 95%;
-            font-size: 2.5vw;
+            font-size: 3vw;
         }
 
-        input[type=submit] {
-            height: 7vw;
-        }
-
-        .info_container {
-            margin-top: 15%;
+        input[type=submit], input, textarea {
+            height: 10vw;
         }
 
         footer {
-            margin-top: 17vw;
-            font-size: 1.2vw;
+            margin: 10vw auto 5vw auto;
+            font-size: 4vw;
         }
 }
