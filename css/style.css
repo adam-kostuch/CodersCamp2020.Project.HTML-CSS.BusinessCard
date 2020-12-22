@@ -1,3 +1,5 @@
+/* Making generall styles for page */ 
+
 * {
     margin: 0 auto;
     padding: 0;
@@ -21,9 +23,16 @@ h1, h2 {
     text-shadow: 4px 4px 2px rgba(0,0,0,0.2);
 }
 
+.blank {
+    display: block;
+    height: 5vw;
+    width: 100%;
+}
+
+/* Creating sticky navbar to the top of the screen */
+
 header {
     width: 100%;
-    height: 5vw;
     background-color: #f0f0f0;
     font-family: 'Teko', sans-serif;
     position: sticky;
@@ -32,26 +41,21 @@ header {
     left: 0;
 }
 
-.blank {
-    display: block;
-    height: 5vw;
-    width: 100%;
-}
-
 nav {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
 }
 
-nav > div {
+nav > div, header {
     height: 5vw;
 }
+
+/* Hover animation for `a` elements */
 
 nav > div > a {
     font-size: 2vw;
     text-decoration: none;
     color: #000000;
-    position: relative;
 }
 
 nav > div > a::before {
@@ -77,6 +81,12 @@ nav > div:nth-child(3) > a {
     font-weight: bold;
 }
 
+/* Styling main view of page after loading website */
+
+.main_view > div, nav > div > a {
+    position: relative;
+}
+
 .main_view {
     clear: both;
     height: 40vw;
@@ -84,15 +94,14 @@ nav > div:nth-child(3) > a {
     background-color: #f0f0f0;
 }
 
-.main_view > div {
-    position: relative;
+.main_left, .main_right {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100% 100%;
 }
 
 .main_left {
     background-image: url('../img/bg2.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 100%;
     width: 25vw;
     height: 15vw;
     top: 40%;
@@ -120,14 +129,13 @@ nav > div:nth-child(3) > a {
 
 .main_right {
     background-image: url('../img/bg1.jpg');
-    background-size: 100%;
-    background-position: 100% 100%;
-    background-repeat: no-repeat;
     width: 40vw;
     height: 25vw;
     top: -50%;
     left: 27%;
 }
+
+/* Styling `portfolio` section */
 
 #portfolio {
     width: 100%;
@@ -183,6 +191,8 @@ nav > div:nth-child(3) > a {
     display: block;
 }
 
+/* Making grid styled gallery */
+
 .gallery_title, h1 {
     width: 100%;
     text-align: center;
@@ -212,6 +222,8 @@ nav > div:nth-child(3) > a {
     width: 100%;
 }
 
+/* Styling achievement section */
+
 .achievements_photo {
     width: 30%;
     background-color: #f0f0f0;
@@ -226,10 +238,10 @@ nav > div:nth-child(3) > a {
 }
 
 .achievements_container {
+    margin-left: 10vw;
     width: 40%;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10vw;
 }
 
 .single_achievement {
@@ -255,6 +267,8 @@ nav > div:nth-child(3) > a {
 .single_achievement:nth-child(2) { animation: color_2 10s infinite; }
 .single_achievement:nth-child(3) { animation: color_3 10s infinite; }
 .single_achievement:nth-child(4) { animation: color_4 10s infinite; }
+
+/* Styling contact section of a page */
 
 .form_container {
     flex-wrap: wrap;
@@ -283,7 +297,7 @@ nav > div:nth-child(3) > a {
 }
 
 iframe {
-    margin-top: 1vw;
+    margin: 1vw auto 0 5%;
     width: 90%;
     height: 90%;
 }
@@ -337,6 +351,8 @@ input[type=submit] {
 .one_info > img {
     width: 2.2vw;
 }
+
+/* Ending stylesheet with footer styling */
 
 footer {
     clear: both;
