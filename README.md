@@ -13,43 +13,43 @@
   - [Footer](#footer)
   
 ----
-### [](https://github.com/CodersCamp2020/CodersCamp2020.Project.HTML-CSS.BusinessCard#about) About
+### About
 Portfolio project is a template website for my future projects. It is just a foundation for a one-page website that I would like to create once I have just a bit more experience. Project includes a font from [Google Fonts](fonts.google.com/) and vector icons from [Flaticon](https://www.flaticon.com/).
 
 ----
-### [](https://github.com/CodersCamp2020/CodersCamp2020.Project.HTML-CSS.BusinessCard#rwd) RWD
+### [](https://github.com/CodersCamp2020/CodersCamp2020.Project.HTML-CSS.BusinessCard#rwd) RWD 
 This site is able to adapt to (probably) all possible resolutions.  Starting from the lowest possible resolution (1px) up to (1920px) which the side was created on.
 
 ----
-### [](https://github.com/CodersCamp2020/CodersCamp2020.Project.HTML-CSS.BusinessCard#navbar) Navbar
-Navbar is a sticky menu that stays at the top of a page. That means whenever we want to scroll the page, the navbar will follow your moves. Navbar includes a hover animation based on ```::before```,  ```::after``` pseudo-elements and ```position: absolute``` css line.
+### [](https://github.com/CodersCamp2020/CodersCamp2020.Project.HTML-CSS.BusinessCard#navbar) Navbar 
+Navbar is a sticky menu that stays at the top of a page. That means whenever we want to scroll the page, the navbar will follow your moves. Navbar includes a hover animation based on ```::before```,  ```::after``` pseudo-elements and ```position: absolute``` css line. <br/>
 ![navbar-image](.github/images/navbar.jpg)
 
 ----
-### [](https://github.com/CodersCamp2020/CodersCamp2020.Project.HTML-CSS.BusinessCard#main-view) Main View
-Main View of the page is the content that page visitor will see first after loading on the site. That includes three containters (two with background images) organized by ```position: relative ```. 
+### [](https://github.com/CodersCamp2020/CodersCamp2020.Project.HTML-CSS.BusinessCard#main-view) Main View 
+Main View of the page is the content that page visitor will see first after loading on the site. That includes three containters (two with background images) organized by ```position: relative ```.  <br/>
 ![main-view-image](.github/images/main-view.jpg)
 
 ----
-### [](https://github.com/CodersCamp2020/CodersCamp2020.Project.HTML-CSS.BusinessCard#portfolio) Portfolio
-Portfolio is a placeholder for future projects that will be uploaded on github. After hovering the photo you can visit demo of the project or see github repository by clicking the icons.
+### Portfolio
+Portfolio is a placeholder for future projects that will be uploaded on github. After hovering the photo you can visit demo of the project or see github repository by clicking the icons. <br/>
 ![portfolio-image](.github/images/portfolio.jpg)
 
 ----
-### [](https://github.com/CodersCamp2020/CodersCamp2020.Project.HTML-CSS.BusinessCard#gallery) Gallery
-Gallery is a grid oriented section for pictures. This section (right now) contains 5 different example pictures that are responsive even with the weird resolutions.
+### Gallery 
+Gallery is a grid oriented section for pictures. This section (right now) contains 5 different example pictures that are responsive even with the weird resolutions. <br/>
 ![gallery-image](.github/images/gallery.jpg)
 
 ----
-### [](https://github.com/CodersCamp2020/CodersCamp2020.Project.HTML-CSS.BusinessCard#achievements) Achievements
-Achievements is the section including some personal accomplishments (it is also a placeholder for now). In this part of the website I used a ``` @keyframes ``` animation (the color changing line to the left of every achievement). 
+### Achievements 
+Achievements is the section including some personal accomplishments (it is also a placeholder for now). In this part of the website I used a ``` @keyframes ``` animation (the color changing line to the left of every achievement). <br/>
 ![achievements-image](.github/images/achievements.jpg)
 
 ----
-### [](https://github.com/CodersCamp2020/CodersCamp2020.Project.HTML-CSS.BusinessCard#contact) Contact
-Contact section is devided to three subsections. Left section is used to keep the location (of the place I live for example). Middle part is keeping the contact form.  Lastly there is a section to keep personal data to contact (without using a form). Also all of the containers inside ** Contact ** are having the ``` @keyfame ``` animation like in the achievement section.
+### Contact 
+Contact section is devided to three subsections. Left section is used to keep the location (of the place I live for example). Middle part is keeping the contact form.  Lastly there is a section to keep personal data to contact (without using a form). Also all of the containers inside ** Contact ** are having the ``` @keyfame ``` animation like in the achievement section. <br/>
 ![contact-image](.github/images/contact.jpg)
 
 ----
-### [](https://github.com/CodersCamp2020/CodersCamp2020.Project.HTML-CSS.BusinessCard#footer) Footer
+### Footer
 Footer is a simple section at the bottom of the page keeping the authors &copy;Copyrights. 
